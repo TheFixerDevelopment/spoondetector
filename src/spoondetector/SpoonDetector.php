@@ -11,7 +11,7 @@ use pocketmine\Server;
  */
 class SpoonDetector extends PluginBase{
     
-public function onEnable() : void{
+protected function onEnable() : void{
     $this->getLogger()->info("Plugin enabled.");
 }
     private static $subtleAsciiSpoon = "   
