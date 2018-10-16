@@ -10,7 +10,10 @@ use pocketmine\Server;
  * @package falkirks\simplewarp\utils
  */
 final class SpoonDetector{
-
+    
+public function onEnable() : void{
+    $this->getLogger()->info("Plugin enabled.");
+}
     private static $subtleAsciiSpoon = "   
          ___ _ __   ___   ___  _ __  
         / __| '_ \\ / _ \\ / _ \\| '_ \\ 
