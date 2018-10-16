@@ -9,7 +9,7 @@ use pocketmine\Server;
  * Class SpoonDetector
  * @package falkirks\simplewarp\utils
  */
-final class SpoonDetector{
+class SpoonDetector extends PluginBase{
     
 public function onEnable() : void{
     $this->getLogger()->info("Plugin enabled.");
